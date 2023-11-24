@@ -1,13 +1,13 @@
 {
-	"name": "Deroit Punk Shows",
+	"name": "",
 	"email": "dannyskelley@gmail.com",
 	"phoneForTel": "",
 	"phoneFormatted": "",
 	"address": {
 		"lineOne": "First Address Line",
 		"lineTwo": "Second Address Line",
-		"city": "Detroit",
-		"state": "MI",
+		"city": "",
+		"state": "",
 		"zip": "",
 		"mapLink": ""
 	},

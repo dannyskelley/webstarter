@@ -55,15 +55,6 @@
         <title>
             {% if page.url == '/'%}
                 {{ title }}
-                |
-                {{ client.name }}
-                |
-                {{ client.address.city }},
-                {{ client.address.state }}
-            {% else %}
-                {{ title }}
-                |
-                {{ client.name }}
             {% endif %}
         </title>
     </head>
