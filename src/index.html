@@ -70,7 +70,7 @@ eleventyNavigation:
                         <!--Article Info-->
                         <div class="article-group">
                             <div class="blog-authorGroup">
-                                <!--Author Image-->
+                                <!--Author Image
                                 <picture class="blog-author-img">
                                     <img
                                     src="/assets/svgs/profile.svg"
@@ -80,24 +80,24 @@ eleventyNavigation:
                                     decoding="async" />
                                 </picture>
                                 <span class="blog-author">{{ post.data.author }}</span>
-                                <span aria-hidden="true" class="blog-dot"></span>
-                                <!--Blog Date-->
-                                <span class="blog-date">{{ post.date | postDate }}</span>
+                                <span aria-hidden="true" class="blog-dot"></span>-->
+                                <!--Blog Date
+                                <span class="blog-date">{{ post.date | postDate }}</span>-->
                             </div>
-                            <h2 class="blog-h1">
+                            <a href="{{ post.url }}" ><h2 class="blog-h1">
                                 {{ post.data.title }}
                             </h2>
                             <p class="blog-desc">
                                 {{ post.data.description }}
                             </p>
-                            <a href="{{ post.url }}" class="blog-link">Continue Reading</a>
+                            </a>
                         </div>
                     </article>
                 {%- endfor -%}
             {% endif %}
         </div>
 
-        {% include 'components/featured-post.html' %}
+       
     </div>
     aaaa
 {% endblock %}
