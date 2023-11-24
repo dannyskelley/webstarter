@@ -59,6 +59,7 @@ eleventyNavigation:
                 {%- for post in collections.post -%}
                     <article class="recent-articles">
                         <!--Main Article Image-->
+                        <h2>{{ post.data.title }}</h2>
                         <picture class="blog-mainImage">
                             <img
                             src="{{ post.data.image }}"
